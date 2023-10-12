@@ -12,7 +12,7 @@ Switching between active and diffused mode of thinking while learning is the mos
 
 # Question 3:- 
 What are active and diffused modes of thinking? <br>
-=>
+=> <br>
 *Active Thinking: To the point, logical and focused mode of thinking.* <br>
 *Diffused Thinking: It is Relaxed, big-picture and creative mode of thinking.*
 
