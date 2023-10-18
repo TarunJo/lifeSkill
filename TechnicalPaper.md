@@ -37,6 +37,25 @@ This helps keep your code safe and working as it should. It's a bit like locking
 - Data hiding
 - Public and private access
 - Benefits of encapsulation
+  ```
+  public class Student {
+    private String name;
+
+    public Student(String name) {
+        this.name = name;
+    }
+
+    public String getName() {
+        return name;
+    }
+
+    public static void main(String[] args) {
+        Student student = new Student("Alice");
+        System.out.println("Student Name: " + student.getName());
+    }
+  }
+
+  ```
 
 ### Inheritance
 Inheritance in programming is a bit like passing down traits from parents to children. 
@@ -47,6 +66,22 @@ It's a way to build on what's already there.
 - Code reuse
 - Extending classes
 - The 'is-a' relationship
+  ```
+  class Animal {
+    public void speak() {
+        // Common code for all animals.
+    }
+  }
+  class Dog extends Animal {
+    public void speak() {
+        System.out.println("Woof!");
+    }
+  }
+  class Cat extends Animal {
+    public void speak() {
+        System.out.println("Meow!");
+    }
+  ```
 
 ### Polymorphism
 Polymorphism in programming is like having one word with different meanings depending on the context. 
@@ -57,6 +92,18 @@ That's what polymorphism does in code – it allows you to use the same command 
 - Flexibility in method invocation
 - Method signature
 - The 'has-a' relationship
+  ```
+  public static void animalSpeak(Animal animal) {
+    animal.speak();
+  }
+  // Usage
+  Animal dog = new Dog();
+  Animal cat = new Cat();
+
+  animalSpeak(dog);  // Outputs "Woof!"
+  animalSpeak(cat);  // Outputs "Meow!"
+
+  ```
 
 ### Abstraction
 Abstraction in programming is like simplifying complex things to make them easier to work with. 
@@ -67,6 +114,27 @@ For example, when you use a smartphone, you don't need to understand all the com
 - Modeling real-world entities
 - Reducing complexity
 - Separation of concerns
+  ```
+  abstract class Shape {
+    public abstract double area();
+  }
+
+  class Circle extends Shape {
+    private double radius;
+
+    public Circle(double radius) {
+        this.radius = radius;
+    }
+
+    public double area() {
+        return 3.14 * radius * radius;
+    }
+  }
+
+  // Usage
+  Circle circle = new Circle(5);
+  System.out.println("Circle area: " + circle.area());
+  ```
 
 ## OOP Design Patterns
 
@@ -94,9 +162,9 @@ For example, when you use a smartphone, you don't need to understand all the com
 
 ## Conclusion
 
-In conclusion, Object-Oriented Programming (OOP) remains a cornerstone of modern software development. 
-Understanding OOP's core principles, its fundamental concepts, and its best practices can empower developers to build maintainable and scalable software systems. 
-This technical paper serves as a valuable resource for developers seeking to master OOP and apply it effectively in their projects.
+In simple terms, Object-Oriented Programming (OOP) is a vital part of making software today.
+By grasping the main ideas, basic concepts, and smart ways of OOP, developers can create software that's easy to manage and grow. 
+This paper is a helpful guide for developers who want to become OOP experts and use it well in their projects.
 
 ## References
 
