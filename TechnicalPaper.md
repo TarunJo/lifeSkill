@@ -138,22 +138,21 @@ For example, when you use a smartphone, you don't need to understand all the com
 
 ## OOP Design Patterns
 
-## Creational Patterns
-
+### Creational Patterns
 - Singleton: It ensures that only one instance of a class is created and provides a way to access that instance.
 - Factory Method: It's like a factory that creates objects without specifying their exact types, allowing flexibility in object creation.
 - Abstract Factory: It's a super factory that creates other factories for creating families of related objects without specifying their classes.
 - Builder: It's like an assembly line for creating complex objects, step by step, with various options.
 - Prototype: It's like making copies of an existing object to create new ones, making it easy to produce similar objects.
 
-## Structural Patterns
+### Structural Patterns
 - Adapter: It's like a translator that allows two incompatible interfaces to work together by providing a middleman.
 - Composite: It's like organizing objects into a tree structure to work with both individual objects and groups of objects seamlessly.
 - Decorator: It's like adding features or behaviors to objects dynamically, without changing their core structure.
 - Proxy: It's like using a stand-in or placeholder to control access to another object.
 - Facade: It's like a simplified front door to a complex system, making it easier to use without dealing with its intricacies.
 
-## Behavioral Patterns
+### Behavioral Patterns
 - Observer: It's like subscribing to updates; when one thing changes, all the interested parties are automatically notified.
 - Strategy: It's like having different strategies in your toolkit and choosing the right one for the job.
 - Command: It's like encapsulating a request as an object, allowing you to parameterize and queue requests.
