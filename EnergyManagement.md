@@ -3,6 +3,7 @@
 - Listen to music.
 - Eat favorite food.
 - Bathing with hot water.
+- Chit-Chat with friends.
 
 # Question 2:
 ## When do you find getting into the Stress quadrant?
@@ -12,9 +13,11 @@
 
 # Question 3:
 ## How do you understand if you are in the Excitement quadrant?
-- Chit-Chat with friends.
-- Play online games.
-- Completing certain tasks.
+- Confident
+- Satisfied
+- Elated
+- Willing to do something
+- Eager about something
 
 # Question 4:
 ## Paraphrase the Sleep is your Superpower video in your own words in brief. Only the points, no explanation.
